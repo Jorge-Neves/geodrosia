@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Button from "./components/button/Button";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         ></a>
+        <Button />
       </header>
     </div>
   );
